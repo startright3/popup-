@@ -1,0 +1,12 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+service-account*.json
+
+# Temporary signing / document staging
+docusign-stage/
